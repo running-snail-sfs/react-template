@@ -1,7 +1,7 @@
 {
-  "name": "react-cli-template",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "react脚手架模块",
+  "description": "{{description}}",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack  --config ./webpack.pro.js",
@@ -10,7 +10,7 @@
     "lint": "eslint --ext .js --ext .jsx src",
     "lint-fix": "eslint --fix --ext .js --fix --ext .jsx src"
   },
-  "author": "nanfeng <742410510@qq.com>",
+  "author": "{{author}}",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.7",
